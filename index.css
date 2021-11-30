@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+
+ .my1font{
+    color: white !important;
+    font-family: 'Pacifico', cursive;
+    font-size: 28px !important; 
+ }
+ .my2font{
+    color: white !important;
+    font-size: 84px !important;
+    font-family: 'Anton', sans-serif;
+ }
+.mytcolor{
+    color: white !important;
+    text-decoration: none ;
+}
+ .mynavp{
+     position:relative;
+     margin-left: 20% ;
+ }
+ .navhr{
+     width: 90%;
+     background-color: white;
+     margin-left: -4%; 
+ }
+ .navbg{
+     background-color: #080808 !important;
+ }
+ .navposition{
+     
+     margin-left: 6%;
+     padding-right: -3%;
+ }
+ .booking{
+     position: relative;
+    border-left: white solid 2px;
+    margin-top: -28px;
+    margin-left: 40px;
+    margin-bottom: ;
+    padding-top: 12px;
+    padding-left: 20px;
+    padding-bottom: 12px;
+    padding-right: 10px;
+}
+.mybookingcolor{
+    color: #de9729 !important;
+    font-size: 26px ;!important;
+}.mybookingcolor:hover{
+    color:#21b05f !important;
+}
+.banner1{
+    background: linear-gradient(to top,#14121280,#0a0a0a80),url("images/slider-one\ \(1\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.button-18 {
+  align-items: center;
+  background-color: #FCA22A ;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.button-18:hover,
+.button-18:focus { 
+  background-color: #21b05f;
+  color: #ffffff;
+}
+
+.button-18:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.button-18:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+.greybg{
+   background-color:#F7F7F7!important;
+}
+
+.my3font{
+    color: #0e385d !important;
+    font-family: 'Merriweather', serif;
+}
+.mynavccolor{
+    color:#21b05f !important;
+    text-decoration: none !important;
+}.mynavccolor:hover{
+    color:#FCA22A !important;
+}
+
+.modalbtn{
+    background:linear-gradient( to left , rgb(73, 248, 73),rgb(54, 54, 248)) !important ;
+}
+.button-34 {
+  background: #0e385d;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}.button-34:hover{
+    background:#21b05f !important;
+}
+.myselector{
+    background: white !important;
+    color: #0e385d !important ;
+}.myselector:hover{
+    background:#f6f8f7 !important;
+}
+.myimgposition{
+    position: relative;
+    left: 92px;
+}
+.myiconposition{
+    position: relative;
+    left: 200px;
+}
+.banner2{
+    background: linear-gradient(to top,#14121280,#0a0a0a80),url("images/count-down-image.png");
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+
+}
+.counter-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 36px;
+    padding-top: 36px;
+}
+.counter {
+    text-align: center;
+}
+.counter h3 {
+    padding: 0.5rem 0;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.counter h6 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+.counttextcolor{
+    color: white;
+}
+.banner3{
+    background: linear-gradient(to top,#14121280,#0a0a0a80),url("images/contact-bg-image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.mylinkbtn{
+    background-color: #FCA22A !important;
+    margin-bottom: 65px;
+    
+}.mylinkbtn:hover{
+    background:#21b05f !important;
+}
+.wepbtn{
+    position: relative; 
+    left: -15px;
+    bottom: -2px;
+    background:white; 
+    padding-left:12px ;
+    padding-right: 12px; 
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.testimonialpos{
+    color: rgb(253, 238, 238);
+    font-size: 99px;
+    text-align: center;
+    
+}
+.testibg{
+    background-color: #dddbdb+;
+}
+.quotepos{
+    position: relative;
+    text-align: center;
+    top: -90px;
+}
+.tesimgpos{
+    position: relative;
+    left:-10px;
+    top: -55px;
+}
+.socialulic{
+    float: right;
+    display: flex;
+    padding: 1px;
+    list-style: none ;
+}
+.footer1{
+    background:url("images/footer-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 45px;
+
+}
+.cpbanner1{
+    background: linear-gradient( to left , rgb(92, 75, 248),rgb(34, 129, 10)) !important  ;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.mapfont{
+    font-size: 72px;
+  background: -webkit-linear-gradient(rgb(92, 75, 248),rgb(34, 129, 10));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.cpsocialulic{
+    float:left;
+    display: flex;
+    padding: 1px;
+    list-style: none ;
+}
+.emaillogopos{
+    position: relative;
+    left: px;
+    top: 29px;
+}
+.myform{
+    background-color: #f8f9fa !important ;
+     padding-top: 12px;
+     padding-right: 15px; 
+    padding-left: 15px;
+    padding-bottom: 22px;
+}
+.Aboutbanner1{
+    background: linear-gradient( to left , rgb(92, 75, 248),rgb(34, 129, 10)) !important  ;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.imgbord{
+    width: 150px;
+    height: 150px;
+    border: 3px solid transparent;
+    border-radius: 50%;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, rgb(92, 75, 248),rgb(34, 129, 10));
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+.abname{
+    font-size: 52px;
+    background: -webkit-linear-gradient(rgb(92, 75, 248),rgb(34, 129, 10));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.abfooter{
+    background: -webkit-linear-gradient(rgb(92, 75, 248),rgb(34, 129, 10));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bookingli{
+    background-color: lightgrey;
+    width: px;
+    border: px solid rgb(18, 19, 18);
+    padding-left:20px ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    margin:  12px;
+    padding-right: 20px;
+}.bookingli:hover{
+    background: linear-gradient( to top , rgb(92, 75, 248),rgb(34, 129, 10)) !important  ;
+   color: white !important;
+}
+.acitbt{
+    color: white;
+    background: linear-gradient( to top , rgb(92, 75, 248),rgb(34, 129, 10)) !important  ;
+    padding-left:25px ;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    margin:  12px;
+    padding-right: 25px;
+}
+.imgborder{
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+   
+}
